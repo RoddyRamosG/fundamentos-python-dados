@@ -14,6 +14,8 @@ classifica o resultado como aprovado, recuperação ou reprovado.
 - Tratamento de erros;
 - Validação de valores.
 
+
+
 ## Conversor de temperatura
 
 Programa que realiza conversões entre Celsius e Fahrenheit.
@@ -38,6 +40,7 @@ Programa que realiza conversões entre Celsius e Fahrenheit.
 `python exercicios/conversor_temperatura.py`
 
 
+
 ## Classificador de notas
 
 Programa que solicita o nome, a nota final e a frequência de um
@@ -57,4 +60,36 @@ a situação acadêmica.
 ### Como executar
 
 `python exercicios/classificador_notas.py`
+
+
+
+## Identificador de números pares e ímpares
+
+Programa que recebe uma quantidade definida de números inteiros,
+separa-os em listas de pares e ímpares e apresenta um resumo.
+
+### Resultados apresentados
+
+- Lista de números informados;
+- Lista de números pares;
+- Lista de números ímpares;
+- Quantidade de valores em cada grupo;
+- Soma dos números pares;
+- Soma dos números ímpares.
+
+### Conceitos praticados
+
+- Listas;
+- Funções;
+- Laços de repetição;
+- Condicionais;
+- Operador de módulo;
+- Validação de entradas;
+- Tratamento de erros;
+- Funções `sum` e `len`.
+
+### Como executar
+
+`python exercicios/pares_impares.py`
+
 
