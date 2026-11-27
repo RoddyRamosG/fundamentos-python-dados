@@ -129,8 +129,8 @@ Cada exercício será desenvolvido em etapas:
 
 ## Progresso
 
-- [ ] Calculadora de média;
-- [ ] Conversor de temperatura;
+- [x] Calculadora de média;
+- [x] Conversor de temperatura;
 - [ ] Classificador de notas;
 - [ ] Identificador de números pares e ímpares;
 - [ ] Análise de vendas por categoria;
