@@ -1,6 +1,3 @@
-# fundamentos-python-dados
-Exercícios e projetos introdutórios de Python aplicados à lógica de programação e análise de dados.
-
 # Fundamentos de Python para Dados
 
 Repositório criado para documentar minha evolução no estudo de **Python**, com foco em lógica de programação, organização do código e preparação para projetos de análise de dados.
