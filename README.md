@@ -132,7 +132,7 @@ Cada exercício será desenvolvido em etapas:
 - [x] Calculadora de média;
 - [x] Conversor de temperatura;
 - [x] Classificador de notas;
-- [ ] Identificador de números pares e ímpares;
+- [x] Identificador de números pares e ímpares;
 - [ ] Análise de vendas por categoria;
 - [ ] Refatoração dos exercícios em funções;
 - [ ] Tratamento de erros;
