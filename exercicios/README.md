@@ -13,3 +13,26 @@ classifica o resultado como aprovado, recuperação ou reprovado.
 - Condicionais;
 - Tratamento de erros;
 - Validação de valores.
+
+## Conversor de temperatura
+
+Programa que realiza conversões entre Celsius e Fahrenheit.
+
+### Conversões disponíveis
+
+- Celsius para Fahrenheit;
+- Fahrenheit para Celsius.
+
+### Conceitos praticados
+
+- Funções;
+- Parâmetros e retornos;
+- Condicionais;
+- Laços de repetição;
+- Tratamento de erros;
+- Operações matemáticas;
+- Formatação de resultados.
+
+### Como executar
+
+`python exercicios/conversor_temperatura.py`
