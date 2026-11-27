@@ -36,3 +36,25 @@ Programa que realiza conversões entre Celsius e Fahrenheit.
 ### Como executar
 
 `python exercicios/conversor_temperatura.py`
+
+
+## Classificador de notas
+
+Programa que solicita o nome, a nota final e a frequência de um
+estudante. A partir desses dados, classifica o desempenho e determina
+a situação acadêmica.
+
+### Conceitos praticados
+
+- Entrada de dados;
+- Conversão de tipos;
+- Funções;
+- Condicionais encadeadas;
+- Validação de intervalos;
+- Tratamento de erros;
+- Formatação de resultados.
+
+### Como executar
+
+`python exercicios/classificador_notas.py`
+
