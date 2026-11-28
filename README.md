@@ -1,128 +1,200 @@
 # Fundamentos de Python para Dados
 
-Repositório criado para documentar minha evolução no estudo de **Python**, com foco em lógica de programação, organização do código e preparação para projetos de análise de dados.
+Repositório criado para documentar minha evolução no estudo de **Python**, com foco em lógica de programação, organização do código e preparação para projetos de Análise e Ciência de Dados.
 
-Os exercícios serão desenvolvidos progressivamente e acompanhados por explicações sobre os conceitos utilizados.
+Os exercícios foram desenvolvidos progressivamente, com funções bem definidas, validação de entradas e documentação dos conceitos praticados.
 
 ## Objetivo
 
-Desenvolver uma base sólida em Python para aplicar posteriormente em projetos de Ciência de Dados, Análise de Dados e automação.
+Desenvolver uma base sólida em Python que possa ser aplicada posteriormente em projetos de análise de dados, automação e Ciência de Dados.
 
-Este repositório tem como objetivos:
+Os principais objetivos deste repositório são:
 
 - Praticar lógica de programação;
 - Compreender os principais tipos de dados;
 - Utilizar estruturas condicionais e de repetição;
-- Trabalhar com listas, tuplas, dicionários e conjuntos;
+- Trabalhar com listas e outras coleções;
 - Criar funções reutilizáveis;
+- Validar dados informados pelo usuário;
 - Tratar erros e entradas inválidas;
 - Organizar arquivos e projetos;
 - Praticar Git e GitHub com commits incrementais;
-- Preparar a base para estudos de Pandas, NumPy e visualização de dados.
+- Preparar a base para estudos de NumPy, Pandas e visualização de dados.
 
-## Conteúdos
-
-Durante o desenvolvimento do repositório, serão abordados:
+## Conteúdos praticados
 
 - Variáveis;
 - Tipos de dados;
-- Operadores;
+- Operadores aritméticos e de comparação;
 - Entrada e saída de dados;
 - Conversão de tipos;
 - Estruturas condicionais;
 - Laços de repetição;
 - Listas;
-- Tuplas;
-- Dicionários;
-- Conjuntos;
 - Funções;
-- Módulos;
+- Parâmetros e retornos;
 - Tratamento de erros;
-- Leitura e escrita de arquivos.
+- Validação de intervalos;
+- Formatação de resultados;
+- Organização de programas em funções.
 
 ## Estrutura do repositório
 
-- `exercicios/`: exercícios práticos desenvolvidos durante os estudos;
+- `exercicios/`: arquivos dos exercícios desenvolvidos;
+- `exercicios/README.md`: documentação resumida de cada exercício;
 - `.gitignore`: arquivos e diretórios que não devem ser versionados;
-- `README.md`: documentação principal do repositório.
+- `README.md`: documentação principal do projeto.
 
-## Exercícios planejados
+Dentro da pasta `exercicios`, estão os seguintes programas:
 
-### Calculadora de média
+- `calculadora_media.py`;
+- `conversor_temperatura.py`;
+- `classificador_notas.py`;
+- `pares_impares.py`.
 
-Programa para receber valores, calcular a média e apresentar o resultado.
+## Exercícios desenvolvidos
+
+### 1. Calculadora de média
+
+Programa que solicita três notas, calcula a média aritmética e classifica a situação do estudante.
+
+**Resultados possíveis:**
+
+- Aprovado;
+- Recuperação;
+- Reprovado.
 
 **Conceitos praticados:**
 
 - Variáveis;
 - Entrada de dados;
-- Conversão de tipos;
-- Operadores aritméticos;
-- Saída formatada.
+- Conversão para números decimais;
+- Listas;
+- Funções;
+- Condicionais;
+- Laços de repetição;
+- Tratamento de entradas inválidas;
+- Formatação da saída.
 
-### Conversor de temperatura
+### 2. Conversor de temperatura
 
-Programa para converter temperaturas entre Celsius e Fahrenheit.
+Programa que realiza conversões entre Celsius e Fahrenheit.
+
+**Conversões disponíveis:**
+
+- Celsius para Fahrenheit;
+- Fahrenheit para Celsius.
 
 **Conceitos praticados:**
 
 - Funções;
-- Entrada de dados;
-- Fórmulas;
+- Parâmetros e retornos;
+- Operações matemáticas;
+- Condicionais;
+- Laços de repetição;
+- Menus interativos;
+- Tratamento de erros;
 - Formatação de resultados.
 
-### Classificador de notas
+### 3. Classificador de notas
 
-Programa para classificar o desempenho de um estudante com base em sua nota.
+Programa que solicita o nome, a nota final e a frequência de um estudante.
+
+A partir desses dados, o programa classifica o desempenho e determina a situação acadêmica.
+
+**Classificações de desempenho:**
+
+- Excelente;
+- Bom;
+- Regular;
+- Insuficiente.
+
+**Situações acadêmicas:**
+
+- Aprovado;
+- Recuperação;
+- Reprovado por nota;
+- Reprovado por frequência.
 
 **Conceitos praticados:**
 
-- Estruturas condicionais;
-- Operadores de comparação;
+- Funções;
+- Condicionais encadeadas;
 - Validação de intervalos;
-- Organização da lógica.
+- Regras de negócio;
+- Tratamento de erros;
+- Formatação de resultados.
 
-### Identificador de números pares e ímpares
+### 4. Identificador de números pares e ímpares
 
-Programa para identificar e separar números pares e ímpares.
+Programa que recebe uma quantidade definida de números inteiros e os separa em duas listas.
+
+O programa apresenta:
+
+- Números informados;
+- Números pares;
+- Números ímpares;
+- Quantidade de números em cada grupo;
+- Soma dos números pares;
+- Soma dos números ímpares.
 
 **Conceitos praticados:**
 
-- Operador de módulo;
-- Estruturas condicionais;
+- Listas;
+- Funções;
 - Laços de repetição;
-- Listas.
+- Condicionais;
+- Operador de módulo;
+- Validação de entradas;
+- Funções `sum` e `len`.
 
 ## Tecnologias e ferramentas
 
 - Python;
 - Visual Studio Code;
 - Git;
-- GitHub.
+- GitHub;
+- GitHub Codespaces.
 
 ## Como executar
 
 1. Faça o download ou clone este repositório.
 2. Certifique-se de que o Python esteja instalado.
-3. Acesse a pasta do exercício desejado.
-4. Execute o arquivo Python pelo terminal ou pelo Visual Studio Code.
+3. Abra um terminal na pasta principal do projeto.
+4. Execute o arquivo correspondente ao exercício desejado.
 
-Exemplo de execução:
+Exemplo para executar a calculadora de média:
 
 `python exercicios/calculadora_media.py`
 
-## Organização dos estudos
+Exemplo para executar o conversor de temperatura:
 
-Cada exercício será desenvolvido em etapas:
+`python exercicios/conversor_temperatura.py`
+
+Exemplo para executar o classificador de notas:
+
+`python exercicios/classificador_notas.py`
+
+Exemplo para executar o identificador de pares e ímpares:
+
+`python exercicios/pares_impares.py`
+
+Em alguns ambientes, pode ser necessário substituir `python` por `python3` ou `py`.
+
+## Organização do desenvolvimento
+
+Cada exercício foi desenvolvido seguindo estas etapas:
 
 1. Definição do problema;
 2. Planejamento da solução;
 3. Implementação inicial;
-4. Testes;
-5. Tratamento de entradas inválidas;
-6. Revisão do código;
-7. Documentação do aprendizado;
-8. Publicação no GitHub.
+4. Execução manual;
+5. Validação dos resultados;
+6. Tratamento de entradas inválidas;
+7. Separação da lógica em funções;
+8. Revisão do código;
+9. Atualização da documentação;
+10. Publicação no GitHub.
 
 ## Progresso
 
@@ -130,33 +202,55 @@ Cada exercício será desenvolvido em etapas:
 - [x] Conversor de temperatura;
 - [x] Classificador de notas;
 - [x] Identificador de números pares e ímpares;
+- [x] Organização dos programas em funções;
+- [x] Tratamento básico de entradas inválidas;
+- [x] Revisão dos exercícios;
+- [x] Documentação inicial;
 - [ ] Análise de vendas por categoria;
-- [ ] Refatoração dos exercícios em funções;
-- [ ] Tratamento de erros;
-- [ ] Manipulação de arquivos.
+- [ ] Leitura e escrita de arquivos;
+- [ ] Testes automatizados;
+- [ ] Introdução ao Pandas.
 
 ## Aprendizados
 
-Esta seção será atualizada à medida que os exercícios forem concluídos.
+Durante o desenvolvimento dos exercícios, pratiquei a divisão de um problema em partes menores e a criação de funções com responsabilidades específicas.
 
-A proposta é registrar não apenas o código final, mas também as dificuldades encontradas, as decisões tomadas e as melhorias aplicadas durante o processo.
+Também aprendi a diferença entre:
+
+- Receber um valor com `input`;
+- Converter textos para tipos numéricos;
+- Retornar um resultado com `return`;
+- Exibir informações com `print`;
+- Repetir uma operação com `while` e `for`;
+- Interromper ou continuar uma repetição;
+- Organizar diferentes regras em funções separadas.
+
+Outro aprendizado importante foi a validação de dados. Os programas verificam entradas inválidas, como textos no lugar de números, notas fora do intervalo permitido, frequências incorretas e quantidades menores ou iguais a zero.
+
+A separação entre as funções de cálculo e a função principal tornou os programas mais legíveis e facilitou a revisão do código.
+
+O uso de commits separados para cada exercício também permitiu registrar a evolução do projeto de forma progressiva.
 
 ## Próximos passos
 
-Após a conclusão dos fundamentos, serão adicionados estudos sobre:
+Os próximos estudos e melhorias planejados são:
 
-- NumPy;
-- Pandas;
-- Matplotlib;
-- Seaborn;
-- Análise exploratória de dados;
-- Jupyter Notebook.
+- Desenvolver uma análise de vendas por categoria;
+- Praticar dicionários e conjuntos;
+- Trabalhar com leitura e escrita de arquivos;
+- Criar testes automatizados para as funções;
+- Estudar NumPy;
+- Iniciar a manipulação de dados com Pandas;
+- Criar visualizações com Matplotlib e Seaborn;
+- Utilizar Jupyter Notebook;
+- Desenvolver um projeto completo de análise exploratória de dados.
 
 ## Autor
 
 **Roddy Ramos Gonzáles**
 
-Bacharelando em Tecnologia da Informação com ênfase em Ciência de Dados, em busca de uma oportunidade de estágio na área de dados.
+Bacharelando em Tecnologia da Informação com ênfase em Ciência de Dados, em busca de uma oportunidade de estágio em Ciência de Dados, Análise de Dados ou Business Intelligence.
 
 - [GitHub](https://github.com/RoddyRamosG)
 - [LinkedIn](https://www.linkedin.com/in/roddy-ramos-g-38483a1a/)
+- [E-mail](mailto:roddyramos@gmail.com)
